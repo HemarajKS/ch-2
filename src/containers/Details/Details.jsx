@@ -1,5 +1,5 @@
-import React from "react";
-import classes from "./Details.module.scss";
+import React from 'react';
+import classes from './Details.module.scss';
 
 const Details = () => {
   return (
