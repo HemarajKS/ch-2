@@ -1,0 +1,55 @@
+@import "../../assets/sass/main";
+
+.wrapper {
+  height: 85vh;
+  background-color: $whiteSmoke;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  border-radius: 10px;
+  padding: 1.5rem 0;
+
+  .stockItem {
+    padding: 1.2rem;
+    display: flex;
+    justify-content: space-between;
+
+    &:hover{
+        box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    }
+
+    .stockInfoLeft {
+        display: flex;
+        gap: 12px;
+        
+      .stockGraph {
+        height: 50px;
+        width: 50px;
+        background-color: $whiteSmoke;
+        box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+        border-radius: 10px;
+      }
+      .stockName {
+        font-size: 14px;
+      }
+    }
+
+    .stockInfoRight {
+       
+
+        .stockdata1{
+            width: 100px;
+            height: 20px;
+            background-color: $mint;
+            border-radius: 6px;
+            font-size: 10px;
+            text-align: center;
+            color: $white;
+        }
+        .stockdata2{
+            text-align: end;
+            margin-top: 5px;
+            font-size: 14px;
+            color:$mint ;
+        }
+    }
+  }
+}

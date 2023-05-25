@@ -1,0 +1,32 @@
+@import '../../assets/sass/main'; 
+
+.wrapper{
+    height: 85vh;
+    background-color: $whiteSmoke;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    border-radius: 10px;
+    padding: 2.5rem;
+
+    .detailsTitle{
+
+        .stockName{
+            font-size: 20px;
+            font-weight: 500;
+            color: $grey;
+        }
+        .stockSubname{
+            font-size: 14px;
+            color: $grey;
+        }
+
+    }
+
+   .detailsGraph{
+    margin-top: 20px;
+    width: 100%;
+    height: 200px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    border-radius: 10px;
+   }
+
+}

@@ -1,0 +1,26 @@
+@import '../../assets/sass/main'; 
+
+.wrapper{
+   height: 500px;
+   width: 50px;
+   box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: space-between;
+   padding: 130px 0 60px 0;
+   gap: 100px;
+   border-radius: 6px;
+   
+  
+
+   .navigation{
+      display: flex;
+      flex-direction: column;
+      gap: 40px;
+      opacity: 0.3;
+   }
+   .profile{
+      opacity: 0.3;
+   }
+}

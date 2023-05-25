@@ -1,0 +1,53 @@
+@import "../../assets/sass/main";
+
+.wrapper {
+  display: flex;
+  justify-content: space-between;
+  
+
+  .indexFundInfo {
+    display: flex;
+    gap: 10px;
+
+    .infoTab1 {
+    }
+
+    .infoTabs {
+      width: 100px;
+      height: 60px;
+      background-color: $whiteSmoke;
+      box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+      border-radius: 6px;
+    }
+  }
+  .searchbox {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+
+    .searchicon {
+      padding-top: 4px;
+    }
+
+    .notification {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      color: $white;
+      background: $buttonGradient;
+      padding: 4px 7px;
+      border-radius: 16px;
+      gap: 2px;
+      .bell {
+      }
+      .number {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 12px;
+        padding-bottom: 5px;
+      }
+    }
+  }
+}

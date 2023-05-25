@@ -1,0 +1,35 @@
+@import '../../assets/sass/main';
+
+.wrapper {
+  width: 120px;
+  height: 85vh;
+  margin-top: 77px;
+  background-color: $whiteSmoke;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  border-radius: 10px;
+  padding: 160px 10px 160px 10px;
+
+  .wishlistContainer {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+
+    .wishlist {
+      padding: 0.5rem !important;
+      margin-bottom: 20px !important;
+      min-height: unset !important;
+      // color: $lightGrey;
+      box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+      border-radius: 8px;
+    }
+  }
+
+  .basket {
+    color: $lightGrey;
+    text-align: center;
+    margin-top: 80px;
+    padding: 2rem 10px;
+    border-radius: 8px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  }
+}
