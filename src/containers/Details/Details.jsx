@@ -49,12 +49,21 @@ const chartData = {
     },
     xaxis: {
       type: 'text',
+      lines: {
+        show: true,
+      },
     },
     yaxis: {
       title: {
         text: 'Points',
       },
       min: 0,
+      lines: {
+        show: true,
+      },
+    },
+    grid: {
+      show: false,
     },
     tooltip: {
       shared: true,

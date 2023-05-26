@@ -1,6 +1,9 @@
-.app{
-    padding: 2rem 4rem;
-    display: flex;
-    gap: 30px;
-    
+.app {
+  padding: 2rem 4rem;
+  display: flex;
+  gap: 30px;
+}
+
+.apexcharts-toolbar {
+  display: none !important;
 }
