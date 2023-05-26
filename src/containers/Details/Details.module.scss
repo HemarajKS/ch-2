@@ -1,6 +1,4 @@
 @import '../../assets/sass/main';
-@import '~react-vis/dist/style';
-@import '~react-vis/dist/styles/legends';
 
 .wrapper {
   height: 85vh;
@@ -28,4 +26,8 @@
     box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
     border-radius: 10px;
   }
+}
+
+.chart-container .apexcharts-gridline-horizontal {
+  display: none !important;
 }
